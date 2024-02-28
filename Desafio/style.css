@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0.7%;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+   
+    background-image: url("assets/mapa\ do\ maroto.gif");
+    height:100vh;
+    max-width: auto;
+     overflow-x: hidden;
+
+}
+
+.titulo {
+    color: rgb(7, 7, 7);
+    font-family: "Josefin Sans", sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+
+}
+
+.section1 {
+    margin-top: 0%;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    margin-top: 1%;
+    flex-direction: row;
+    }
+    .alura {
+        width: 3rem;
+    }
+    .oracle{
+        width: 4.5rem;
+    }
+.section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+                 
+    }
+    
+    .caixa_de_texto {
+        width: 20rem;
+        height: 10rem;
+        line-height: 1.0;
+        border-radius: 5px;
+        border: 0.09rem solid #ccc;
+        box-shadow: 0.06rem 0.06rem 0.06rem #999;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 0.9rem;
+        background-color: #d4f3d0;
+        
+    }
+    
+    .button_mensagem_criptografar {
+        background-color: rgb(235, 240, 230);
+        color: rgb(7, 6, 6);
+        max-width: 40%;
+        border: 10% solid;
+        width: 15rem;
+        height: 3rem;
+        padding: 0;
+        font-size: 1.25rem;
+        
+    }
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+    .caixa_de_texto2 {
+    width: 20rem;
+    height: 10rem;
+    line-height: 1.0;
+    border-radius: 5px;
+    border: 0.09rem solid #ccc;
+    box-shadow: 0.06rem 0.06rem 0.06rem #999;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.9rem;
+    background-color: #d4f3d0;
+    }
+
+    .button_mensagem_descriptografar {
+    background-color: rgb(235, 240, 230);
+        color: rgb(7, 6, 6);
+        max-width: 40%;
+        border: 10% solid;
+        width: 15rem;
+        height: 3rem;
+        padding: 0;
+        font-size: 1.25rem;
+
+    }
+}
+    .texto_paragrafo {
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(0, 8, 31);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-top: 0%;
+}
+    .rodapé {
+    color: black;
+    font-size: 1rem;
+    align-items: center
+
+}
